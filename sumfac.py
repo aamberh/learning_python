@@ -7,4 +7,7 @@
 
 n = 5
 
-# your code goes here
+sum = 0 
+for i in range (1,(5+1)):
+ sum += i
+print(sum)
