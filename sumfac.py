@@ -6,12 +6,12 @@
 # Use the same loop for both calculations
 
 n = 5
-
+# computes sum
 sum = 0 
 for i in range(1,(5+1)):
  sum += i
-
+# computes factorial
 fac = 1
 for i in range(1, (5+1)):
  fac *= i
- print(n, sum, fac)
+print(n, sum, fac)
